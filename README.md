@@ -1,5 +1,7 @@
 Formatted for TouchDesigner, this script will compare two audio streams and return the time offset between the two.
 
+It may only run in Python 3.7 or 3.8. Librosa has a dependency issue somewhere last I checked.
+
 You will probably need to use TD PIP to make sure you have the correct dependencies installed:
 
 def onStart():
