@@ -2,6 +2,7 @@ Formatted for TouchDesigner, this script will compare two audio streams and retu
 
 You will probably need to use TD PIP to make sure you have the correct dependencies installed:
 
+```
 def onStart():
 	print('STARTING PIP')
 	print('PIP setuptools')
@@ -12,3 +13,4 @@ def onStart():
 	op('td_pip').Import_Module("matplotlib", pip_name = "matplotlib")
 	print('COMPLETE')
 	return
+```
